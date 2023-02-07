@@ -1,0 +1,243 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    display: block;
+    background-color:aliceblue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width:100%;
+    height: 100%;
+}
+
+.container{
+    position: relative;
+    padding-top: 50px;
+    display: block;
+    width:90%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+header{
+    font-size:25px;
+    color:rgb(7, 7, 146);
+    padding-bottom: 20px;
+    border-bottom: 1px gray solid;
+}
+
+h2{
+    font-size: 16px;
+    font-weight: lighter;
+    color: rgb(117, 115, 115);
+    letter-spacing:0.08cm;
+    padding-top:25px;
+    padding-bottom: 40px;
+}
+
+.label label{
+    color:rgb(7, 7, 146);
+}
+
+.name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.name input{
+    width:100%;
+    height:50px;
+    border:1px gold solid;
+    padding-left:13px;
+}
+
+.email{
+    width: 100%;
+    padding-top: 20px;
+}
+
+.email label{
+    color: rgb(7, 7, 146);
+}
+
+.email input{
+    width:100%;
+    height:50px;
+    border:1px gold solid;
+}
+
+.phone{
+    width: 100%;
+    padding-top: 20px;
+}
+
+.phone label{
+    color: rgb(7, 7, 146);
+}
+
+.phone input{
+    width:100%;
+    height:50px;
+    border:1px gold solid;
+    padding-left: 20px;
+}
+
+.date{
+    width: 100%;
+    padding-top: 20px;
+}
+
+.date label{
+    color: rgb(7, 7, 146);
+}
+
+.date input{
+    width:100%;
+    height:50px;
+    border:1px gold solid;
+    padding-left: 20px;
+}
+
+.address{
+    width: 100%;
+    padding-top: 20px;
+}
+
+.address label{
+    color: rgb(7, 7, 146);
+}
+
+.address input{
+    width:100%;
+    height:50px;
+    border:1px gold solid;
+    padding-left: 20px;
+}
+
+#address2{
+    margin-top: 15px;
+}
+
+.address2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-top: 20px;
+}
+
+.address2 input{
+    width:97%;
+    height:50px;
+    border:1px gold solid;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+#city{
+    margin-bottom: 15px;
+}
+
+.radio #label{
+    color: rgb(7, 7, 146);
+    font-weight: bold;
+}
+
+.select{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.first{
+    padding-bottom: 20px;
+}
+
+
+.mother{
+    width: 100%;
+    padding-top: 20px;
+}
+
+.mother label{
+    color: rgb(7, 7, 146);
+}
+
+.mother input{
+    width:100%;
+    height:50px;
+    border:1px gold solid;
+    padding-left: 20px;
+}
+
+.occupation{
+    width: 100%;
+    padding-top: 20px;
+}
+
+.occupation label{
+    color: rgb(7, 7, 146);
+}
+
+.occupation input{
+    width:100%;
+    height:50px;
+    border:1px gold solid;
+    padding-left: 20px;
+}
+
+.employer{
+    width: 100%;
+    padding-top: 20px;
+}
+
+.employer label{
+    color: rgb(7, 7, 146);
+}
+
+.employer input{
+    width:100%;
+    height:50px;
+    border:1px gold solid;
+    padding-left: 20px;
+}
+
+.submit{
+    display: block;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    color: rgb(7, 7, 146);
+    padding: 5px;
+    border: 1px rgb(7, 7, 146) solid;
+    border-radius: 20px;
+    margin-top: 13px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.submit:hover{
+    color: white;
+    background: rgb(7, 7, 146);
+}
+
+@media(max-width:768px){
+    header{
+        font-size:15px;
+        color:rgb(7, 7, 146);
+        padding-bottom: 20px;
+        border-bottom: 1px gray solid;
+    }
+
+    .name input{
+        width:90%;
+        height:50px;
+        border:1px gold solid;
+        padding-left:13px;
+    }
+    
+    
+}
